@@ -40,6 +40,7 @@ class AcontecimentoService {
     }
   }
 
+
   async editAcontecimento(acontecimento) {
     try {
       const response = await fetch(`${this.baseUrl}/acontecimentos/${acontecimento.id}`, {
